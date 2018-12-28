@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Alarm_Clock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="GradientView" customModule="Alarm_Clock" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duD-fR-hJ5" customClass="Button" customModule="Alarm_Clock" customModuleProvider="target">
+                                <rect key="frame" x="24" y="716" width="327" height="52"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Save changes"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ALARM SETTINGS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0P1-V5-TSZ">
+                                <rect key="frame" x="16" y="60" width="343" height="17"/>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A6p-di-mLC">
+                                <rect key="frame" x="24" y="378.33333333333331" width="327" height="217.99999999999994"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="86" translatesAutoresizingMaskIntoConstraints="NO" id="uwv-cI-45u" customClass="Slider" customModule="Alarm_Clock" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="86"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="title" value="hours"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
+                                                <real key="value" value="23"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="sliderUpdate" destination="BYZ-38-t0r" eventType="valueChanged" id="ASn-y4-qTY"/>
+                                        </connections>
+                                    </view>
+                                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="86" translatesAutoresizingMaskIntoConstraints="NO" id="i3G-Ep-nI5" customClass="Slider" customModule="Alarm_Clock" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="132" width="327" height="86"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="title" value="mins"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
+                                                <real key="value" value="59"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="sliderUpdate" destination="BYZ-38-t0r" eventType="valueChanged" id="OwV-Ki-cAV"/>
+                                        </connections>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="i3G-Ep-nI5" firstAttribute="leading" secondItem="A6p-di-mLC" secondAttribute="leading" id="Afs-wE-2Qa"/>
+                                    <constraint firstItem="uwv-cI-45u" firstAttribute="top" secondItem="A6p-di-mLC" secondAttribute="top" id="Lb8-Kx-Rah"/>
+                                    <constraint firstItem="uwv-cI-45u" firstAttribute="leading" secondItem="A6p-di-mLC" secondAttribute="leading" id="MF6-hv-b3K"/>
+                                    <constraint firstAttribute="trailing" secondItem="uwv-cI-45u" secondAttribute="trailing" id="PT5-mZ-xSa"/>
+                                    <constraint firstAttribute="trailing" secondItem="i3G-Ep-nI5" secondAttribute="trailing" id="mdo-pO-wi4"/>
+                                    <constraint firstAttribute="bottom" secondItem="i3G-Ep-nI5" secondAttribute="bottom" id="ngB-Ju-hGG"/>
+                                    <constraint firstAttribute="height" priority="250" constant="218" id="yX6-fp-v2g"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="194" id="yyD-PW-hxs"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="duD-fR-hJ5" secondAttribute="bottom" priority="900" constant="10" id="6nZ-Du-yQs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="A6p-di-mLC" secondAttribute="bottom" constant="130" id="Abf-Np-oMQ"/>
+                            <constraint firstItem="A6p-di-mLC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E9y-OD-Ilq"/>
+                            <constraint firstItem="A6p-di-mLC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="bottom" multiplier="0.6" priority="900" id="J6R-et-3i7"/>
+                            <constraint firstItem="duD-fR-hJ5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jb9-c8-Hlc"/>
+                            <constraint firstItem="0P1-V5-TSZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KNk-6P-aNo"/>
+                            <constraint firstItem="A6p-di-mLC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="UFV-Ma-ZId"/>
+                            <constraint firstItem="0P1-V5-TSZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="g1C-Yr-Fzz"/>
+                            <constraint firstItem="0P1-V5-TSZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lo4-TN-R8F"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="duD-fR-hJ5" secondAttribute="bottom" constant="20" id="pQX-HR-8om"/>
+                            <constraint firstItem="duD-fR-hJ5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="za2-pJ-mEA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <connections>
+                        <outlet property="headerLabel" destination="0P1-V5-TSZ" id="0hJ-dZ-wIQ"/>
+                        <outlet property="hoursSlider" destination="uwv-cI-45u" id="kYA-Fn-Psm"/>
+                        <outlet property="minsSlider" destination="i3G-Ep-nI5" id="WRC-cm-RmN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="133.00492610837438"/>
+        </scene>
+    </scenes>
+</document>
