@@ -74,8 +74,8 @@ final class ThumbView: UIView {
         titleLabel.textColor = tintColor
         thumbView.tintColor = tintColor
         
-        thumbView.transform = CGAffineTransform(scaleX: .leastNormalMagnitude,
-                                                y: .leastNormalMagnitude)
+        thumbView.transform = CGAffineTransform(scaleX: 0,
+                                                y: 0)
         thumbView.alpha = 0
     }
     
@@ -118,8 +118,8 @@ final class ThumbView: UIView {
     func animateTrackingEnd() {
         UIView.animateEasy {
             self.valueLabel.transform = CGAffineTransform.identity
-            self.thumbView.transform = CGAffineTransform(scaleX: .leastNormalMagnitude,
-                                                         y: .leastNormalMagnitude)
+            self.thumbView.transform = CGAffineTransform(scaleX: 0,
+                                                         y: 0)
             self.thumbView.alpha = 0
         }
     }
