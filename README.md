@@ -1,7 +1,7 @@
-<img src="./header.png" width="340"/>
+[![Redmadrobot](./header.svg)](http://redmadrobot.com)
 
-[![Redmadrobot](https://img.shields.io/badge/made%20by%20robots-for%20humans-EB5440.svg)](http://redmadrobot.com)
 
+<br />
 
 # ⏰ Alarm Clock
 Proof of concept for our [Colored Alarm Clock Interface shot @ Dribbble](https://dribbble.com/shots/5054031-Colored-Alarm-Clock-Interface)
@@ -13,3 +13,9 @@ Slider implemented as a subclass of UIControl. You can set slider title and max 
 <img src="./xcode-interface-builder.png" width="600"/>
 
 Feel free to use this code in your projects and [![](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/Firmach) me if you have any questions or suggestions.
+
+<br />
+
+[![Redmadrobot](./robot.svg)](http://redmadrobot.com)
+
+[![Redmadrobot](https://img.shields.io/badge/made%20by%20robots-for%20humans-EB5440.svg)](http://redmadrobot.com)
