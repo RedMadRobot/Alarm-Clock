@@ -13,33 +13,29 @@
 		516D826121D500190067FE99 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 516D825421D500190067FE99 /* Montserrat-SemiBold.ttf */; };
 		516D826221D500190067FE99 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D825521D500190067FE99 /* GradientView.swift */; };
 		516D826321D500190067FE99 /* SunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D825621D500190067FE99 /* SunView.swift */; };
-		516D826421D500190067FE99 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D825721D500190067FE99 /* Slider.swift */; };
-		516D826521D500190067FE99 /* BebasNeueWhatever.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 516D825821D500190067FE99 /* BebasNeueWhatever.ttf */; };
-		516D826621D500190067FE99 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D825921D500190067FE99 /* CircleView.swift */; };
 		516D826721D500190067FE99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D825A21D500190067FE99 /* AppDelegate.swift */; };
 		516D826821D500190067FE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516D825B21D500190067FE99 /* Assets.xcassets */; };
-		516D826921D500190067FE99 /* ThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D825C21D500190067FE99 /* ThumbView.swift */; };
 		516D826A21D500190067FE99 /* UIViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D825D21D500190067FE99 /* UIViewHelpers.swift */; };
 		5182966321D4FF3D00AE1D19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5182966121D4FF3D00AE1D19 /* LaunchScreen.storyboard */; };
+		BA4374ECC8C932CFE6D1C652 /* Pods_Alarm_Clock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0254FB384532014C71B92B88 /* Pods_Alarm_Clock.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0254FB384532014C71B92B88 /* Pods_Alarm_Clock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alarm_Clock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		516D825121D500180067FE99 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		516D825221D500180067FE99 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		516D825321D500190067FE99 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		516D825421D500190067FE99 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		516D825521D500190067FE99 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		516D825621D500190067FE99 /* SunView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunView.swift; sourceTree = "<group>"; };
-		516D825721D500190067FE99 /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
-		516D825821D500190067FE99 /* BebasNeueWhatever.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeueWhatever.ttf; sourceTree = "<group>"; };
-		516D825921D500190067FE99 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		516D825A21D500190067FE99 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		516D825B21D500190067FE99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		516D825C21D500190067FE99 /* ThumbView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbView.swift; sourceTree = "<group>"; };
 		516D825D21D500190067FE99 /* UIViewHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewHelpers.swift; sourceTree = "<group>"; };
 		5182965521D4FF3B00AE1D19 /* Alarm Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alarm Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5182966221D4FF3D00AE1D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5182966421D4FF3D00AE1D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6C82D0FC391629FD69F32A /* Pods-Alarm Clock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alarm Clock.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alarm Clock/Pods-Alarm Clock.release.xcconfig"; sourceTree = "<group>"; };
+		DE0A54EC718C3085BF516808 /* Pods-Alarm Clock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alarm Clock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alarm Clock/Pods-Alarm Clock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,30 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4374ECC8C932CFE6D1C652 /* Pods_Alarm_Clock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A23A587471C448ADB239D64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE0A54EC718C3085BF516808 /* Pods-Alarm Clock.debug.xcconfig */,
+				9B6C82D0FC391629FD69F32A /* Pods-Alarm Clock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3EC6185A2DD91EFB05816080 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0254FB384532014C71B92B88 /* Pods_Alarm_Clock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		516D826D21D501930067FE99 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				516D825B21D500190067FE99 /* Assets.xcassets */,
-				516D825821D500190067FE99 /* BebasNeueWhatever.ttf */,
 				516D825421D500190067FE99 /* Montserrat-SemiBold.ttf */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		516D826E21D502530067FE99 /* Slider */ = {
-			isa = PBXGroup;
-			children = (
-				516D825921D500190067FE99 /* CircleView.swift */,
-				516D825721D500190067FE99 /* Slider.swift */,
-				516D825C21D500190067FE99 /* ThumbView.swift */,
-			);
-			path = Slider;
 			sourceTree = "<group>";
 		};
 		516D826F21D5029D0067FE99 /* Background */ = {
@@ -87,6 +90,8 @@
 			children = (
 				5182965721D4FF3B00AE1D19 /* Alarm Clock */,
 				5182965621D4FF3B00AE1D19 /* Products */,
+				0A23A587471C448ADB239D64 /* Pods */,
+				3EC6185A2DD91EFB05816080 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,7 +113,6 @@
 				516D825321D500190067FE99 /* Main.storyboard */,
 				516D825221D500180067FE99 /* Button.swift */,
 				516D825D21D500190067FE99 /* UIViewHelpers.swift */,
-				516D826E21D502530067FE99 /* Slider */,
 				516D826F21D5029D0067FE99 /* Background */,
 				516D825121D500180067FE99 /* ViewController.swift */,
 			);
@@ -122,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5182966721D4FF3D00AE1D19 /* Build configuration list for PBXNativeTarget "Alarm Clock" */;
 			buildPhases = (
+				B6E34D83694A9EBA132B7C0A /* [CP] Check Pods Manifest.lock */,
 				5182965121D4FF3B00AE1D19 /* Sources */,
 				5182965221D4FF3B00AE1D19 /* Frameworks */,
 				5182965321D4FF3B00AE1D19 /* Resources */,
+				609DF668951297449F54B177 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,7 +181,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				516D826121D500190067FE99 /* Montserrat-SemiBold.ttf in Resources */,
-				516D826521D500190067FE99 /* BebasNeueWhatever.ttf in Resources */,
 				5182966321D4FF3D00AE1D19 /* LaunchScreen.storyboard in Resources */,
 				516D826021D500190067FE99 /* Main.storyboard in Resources */,
 				516D826821D500190067FE99 /* Assets.xcassets in Resources */,
@@ -184,20 +189,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		609DF668951297449F54B177 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Alarm Clock/Pods-Alarm Clock-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ACSlider/ACSlider.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACSlider.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alarm Clock/Pods-Alarm Clock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6E34D83694A9EBA132B7C0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alarm Clock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5182965121D4FF3B00AE1D19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				516D826621D500190067FE99 /* CircleView.swift in Sources */,
 				516D825E21D500190067FE99 /* ViewController.swift in Sources */,
 				516D826A21D500190067FE99 /* UIViewHelpers.swift in Sources */,
 				516D826321D500190067FE99 /* SunView.swift in Sources */,
 				516D825F21D500190067FE99 /* Button.swift in Sources */,
 				516D826721D500190067FE99 /* AppDelegate.swift in Sources */,
-				516D826921D500190067FE99 /* ThumbView.swift in Sources */,
 				516D826221D500190067FE99 /* GradientView.swift in Sources */,
-				516D826421D500190067FE99 /* Slider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,11 +374,12 @@
 		};
 		5182966821D4FF3D00AE1D19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0A54EC718C3085BF516808 /* Pods-Alarm Clock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = KD5WU9VVKX;
 				INFOPLIST_FILE = "Alarm Clock/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -354,11 +396,12 @@
 		};
 		5182966921D4FF3D00AE1D19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6C82D0FC391629FD69F32A /* Pods-Alarm Clock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = KD5WU9VVKX;
 				INFOPLIST_FILE = "Alarm Clock/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

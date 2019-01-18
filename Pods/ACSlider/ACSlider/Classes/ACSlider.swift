@@ -1,6 +1,6 @@
 //
-//  Slider.swift
-//  Alarm Clock
+//  ACSlider.swift
+//  ACSlider
 //
 //  Created by Roman Churkin on 12/12/2018.
 //  Copyright © 2018 Redmadrobot. All rights reserved.
@@ -10,18 +10,18 @@ import UIKit
 
 
 @IBDesignable
-final class Slider: UIControl {
+public final class ACSlider: UIControl {
     
     @IBInspectable var title: String? {
         get { return thumbView.title }
         set { thumbView.title = newValue }
     }
-    @IBInspectable var maxValue: CGFloat = 23
+    @IBInspectable public var maxValue: CGFloat = 23
     
 
     // MARK: -
     
-    private(set) var value: CGFloat = 0 {
+    private(set) public var value: CGFloat = 0 {
         didSet { thumbView.value = String(format: "%02.0f", value) }
     }
     
@@ -37,8 +37,8 @@ final class Slider: UIControl {
     }()
     
     
-    private let minTrackView: UIView = Slider.prepareTrackView()
-    private let maxTrackView: UIView = Slider.prepareTrackView()
+    private let minTrackView: UIView = ACSlider.prepareTrackView()
+    private let maxTrackView: UIView = ACSlider.prepareTrackView()
     
     private static func prepareTrackView() -> UIView {
         let view = UIView(frame: .zero)
@@ -50,7 +50,7 @@ final class Slider: UIControl {
     
     // MARK: -
     
-    override var intrinsicContentSize: CGSize {
+    override public var intrinsicContentSize: CGSize {
         return CGSize(width: UIView.noIntrinsicMetric,
                       height: thumbSize.height)
     }
@@ -73,17 +73,17 @@ final class Slider: UIControl {
         addSubview(thumbView)
     }
     
-    override func prepareForInterfaceBuilder() {
+    override public func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
         value = CGFloat(Int.random(in: 0..<Int(maxValue)))
     }
     
-    override func tintColorDidChange() {
+    override public func tintColorDidChange() {
         super.tintColorDidChange()
         tintColorUpdate()
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         recalculateFrames()
     }
@@ -141,7 +141,7 @@ final class Slider: UIControl {
     
     // MARK: -
     
-    override func beginTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
+    override public func beginTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
         let result = super.beginTracking(touch, with: event)
         let insideThumb = thumbView.frame.contains(touch.location(in: self))
         
@@ -153,12 +153,12 @@ final class Slider: UIControl {
         return result && insideThumb
     }
     
-    override func continueTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
+    override public func continueTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
         updateValue(for: touch, animated: false)
         return super.continueTracking(touch, with: event)
     }
     
-    override func endTracking(_ touch: UITouch?, with event: UIEvent?) {
+    override public func endTracking(_ touch: UITouch?, with event: UIEvent?) {
         thumbView.animateTrackingEnd()
         
         value = value.rounded()

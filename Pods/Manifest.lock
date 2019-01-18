@@ -1,0 +1,16 @@
+PODS:
+  - ACSlider (1.0.2)
+
+DEPENDENCIES:
+  - ACSlider
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ACSlider
+
+SPEC CHECKSUMS:
+  ACSlider: dfc421d970c21c2546f1cfb3b2d6fa241bca1c43
+
+PODFILE CHECKSUM: 5dce3a43c686b9410103c119e5b32af305be16e1
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module ACSlider {
+  umbrella header "ACSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

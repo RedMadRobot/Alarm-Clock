@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ACSlider
 
 
 final class ViewController: UIViewController {
@@ -18,8 +19,8 @@ final class ViewController: UIViewController {
                 NSAttributedString(string: text, attributes: [NSAttributedString.Key.kern: 3.5])
         }
     }
-    @IBOutlet var hoursSlider: Slider!
-    @IBOutlet var minsSlider: Slider!
+    @IBOutlet var hoursSlider: ACSlider!
+    @IBOutlet var minsSlider: ACSlider!
 
     
     // MARK: -

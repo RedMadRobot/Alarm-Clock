@@ -22,7 +22,6 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>BebasNeueWhatever.ttf</string>
 		<string>Montserrat-SemiBold.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>

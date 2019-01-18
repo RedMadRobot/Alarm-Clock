@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duD-fR-hJ5" customClass="Button" customModule="Alarm_Clock" customModuleProvider="target">
-                                <rect key="frame" x="24" y="716" width="327" height="52"/>
+                                <rect key="frame" x="24" y="738" width="327" height="30"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Save changes"/>
                             </button>
@@ -37,7 +37,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A6p-di-mLC">
                                 <rect key="frame" x="24" y="378.33333333333331" width="327" height="217.99999999999994"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="86" translatesAutoresizingMaskIntoConstraints="NO" id="uwv-cI-45u" customClass="Slider" customModule="Alarm_Clock" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="86" translatesAutoresizingMaskIntoConstraints="NO" id="uwv-cI-45u" customClass="ACSlider" customModule="ACSlider">
                                         <rect key="frame" x="0.0" y="0.0" width="327" height="86"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -51,7 +51,7 @@
                                             <action selector="sliderUpdate" destination="BYZ-38-t0r" eventType="valueChanged" id="ASn-y4-qTY"/>
                                         </connections>
                                     </view>
-                                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="86" translatesAutoresizingMaskIntoConstraints="NO" id="i3G-Ep-nI5" customClass="Slider" customModule="Alarm_Clock" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="86" translatesAutoresizingMaskIntoConstraints="NO" id="i3G-Ep-nI5" customClass="ACSlider" customModule="ACSlider">
                                         <rect key="frame" x="0.0" y="132" width="327" height="86"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

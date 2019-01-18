@@ -1,6 +1,6 @@
 //
 //  ThumbView.swift
-//  Alarm Clock
+//  ACSlider
 //
 //  Created by Roman Churkin on 25/12/2018.
 //  Copyright © 2018 Redmadrobot. All rights reserved.
@@ -27,7 +27,6 @@ final class ThumbView: UIView {
     
     private var valueLabel: UILabel = {
         let label = UILabel(frame: .zero)
-        label.font = UIFont(name: "BebasNeueWhatever", size: 56)
         label.textAlignment = .center
         label.text = "00"
         
@@ -36,7 +35,6 @@ final class ThumbView: UIView {
     
     private var titleLabel: UILabel = {
         let label = UILabel(frame: .zero)
-        label.font = UIFont(name: "Montserrat-SemiBold", size: 14)
         label.textAlignment = .center
         
         return label
@@ -64,6 +62,10 @@ final class ThumbView: UIView {
     }
     
     private func configure() {
+        PodFontsHelper.registerFonts()
+        valueLabel.font = UIFont(name: "BebasNeueWhatever", size: 56)
+        titleLabel.font = UIFont(name: "Montserrat-SemiBold", size: 14)
+        
         addSubview(titleLabel)
         addSubview(valueLabel)
         addSubview(thumbView)

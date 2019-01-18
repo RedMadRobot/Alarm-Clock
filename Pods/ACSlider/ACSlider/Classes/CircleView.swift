@@ -1,6 +1,6 @@
 //
 //  CircleView.swift
-//  Alarm Clock
+//  ACSlider
 //
 //  Created by Roman Churkin on 25/12/2018.
 //  Copyright © 2018 Redmadrobot. All rights reserved.
